@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <title>Educanta - company sign-up</title>
+    <head>
+      <link rel= "stylesheet" href= "{{ url_for('static',filename='styles/styles.css') }}">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  </head>    
+    <body>
+    <h1>Hello Educanta</h1>
+      <article>
+        <p>
+          Signup as a company for Educanta.
+        </p>
+      </article>
+      <div>
+        <form id="signup_form_company" action="submit-signup-company" method="post" enctype="multipart/form-data"> 
+            <br><b>Name</b>
+            <input type="text" name="name" id="name" required> <br>
+        </form>
+        <br>
+        <p>
+          <button type="submit" form="signup_form_company" class="myButton">Signup</button>
+        </p>
+    </body>
+    <footer>
+      <img src="{{url_for('static', filename='logo_esmalte.svg')}}" width="150px"/>
+  </footer>
+</html>
