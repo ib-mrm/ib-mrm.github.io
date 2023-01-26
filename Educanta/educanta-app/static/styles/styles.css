@@ -1,0 +1,84 @@
+h1 {
+    color: #FCF9DD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+  }
+
+h2 {
+    color: #FCF9DD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 20px;  
+  }
+
+body {
+  background-color: #0280A7;
+  color: #FCF9DD;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}  
+
+footer {
+  padding: 50px;
+}
+
+.submissionTable {
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  width: 900px;
+  border: 1px solid #192A51;
+}
+
+table, th, td {
+  border: 1px solid #192A51;
+  border-collapse: collapse;
+  font-family: 'Montserrat', sans-serif;
+}
+
+tr:hover {background-color:#192A51;}
+table thead tr:hover{background-color:#0280A7;}
+
+.myButton {
+  background:linear-gradient(to bottom, #192A51 5%, #223a70 100%);
+  background-color: #192A51;
+  border-radius: 6px;
+  border: 1px solid #192A51;
+  display: inline-block;
+  cursor: pointer;
+  color: #FCF9DD;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 45px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #223a70 5%, #192A51 100%);
+	background-color:#FCD7B6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+ul{
+  display: table;
+  margin: 0 auto;
+}
+
+#payments_form {
+  display: grid;
+  grid-row-gap: 10px;
+  justify-content: center;
+}
+
+.radios {
+  text-align: left;
+}
